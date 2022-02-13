@@ -113,5 +113,39 @@ const playMatch = function () {
               return;
             }
           }
-          
+          if (playerChoice === "spock") {
+            if (computerChoice === "lizard" || computerChoice === "paper")
+          {
+              winner.textContent = "Computer Wins";
+              cScore++;
+              updateScore();
+              return;
+            }
+            
+            else {
+              winner.textContent = "Player Wins";
+              pScore++;
+              updateScore();
+              return;
+            }
+          }
+            };
+          if (playerChoice === "spock") {
+  if (computerChoice === "lizard" || computerChoice === "paper")
+{
+    winner.textContent = "Computer Wins";
+    cScore++;
+    updateScore();
+    return;
+  }
+  
+  else {
+    winner.textContent = "Player Wins";
+    pScore++;
+    updateScore();
+    return;
+  }
+}
+  };
+
       
