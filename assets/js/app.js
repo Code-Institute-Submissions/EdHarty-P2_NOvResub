@@ -71,4 +71,17 @@ const playMatch = function () {
               return;
             }
           }
+          if (playerChoice === "paper") {
+            if (computerChoice === "scissors" || computerChoice === "lizard") {
+              winner.textContent = "Computer Wins";
+              cScore++;
+              updateScore();
+              return;
+            } else {
+              winner.textContent = "Player Wins";
+              pScore++;
+              updateScore();
+              return;
+            }
+          }
       
