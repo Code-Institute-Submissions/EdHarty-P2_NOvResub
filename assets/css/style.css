@@ -4,3 +4,8 @@
     padding: 0;
     box-sizing: border-box;
   }
+  section {
+    height: 100vh;
+    background-image: linear-gradient(to left top, #756bd1, #008dea, #00a9ee, #00c0e1, #00d3cc, #00d4cd, #00d4cd, #00d5ce, #00c3ea, #00acff, #008dff, #615ffb);;
+    font-family: bubblegum sans;
+  }
