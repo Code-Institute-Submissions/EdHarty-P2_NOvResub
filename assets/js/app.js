@@ -58,3 +58,17 @@ const playMatch = function () {
           winner.textContent = "It is a tie";
           return;
         }
+        if (playerChoice === "rock") {
+            if (computerChoice === "scissors" || computerChoice === "lizard") {
+              winner.textContent = "Player Wins";
+              pScore++;
+              updateScore();
+              return;
+            } else {
+              winner.textContent = "Computer Wins";
+              cScore++;
+              updateScore();
+              return;
+            }
+          }
+      
