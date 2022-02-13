@@ -81,3 +81,12 @@
     transform: rotateY(180deg);
     border-radius: 50%;
   }
+  div.fadeOut {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  div.fadeIn {
+    opacity: 1;
+    pointer-events: all;
+  }
