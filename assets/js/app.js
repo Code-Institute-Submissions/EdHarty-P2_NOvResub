@@ -23,3 +23,23 @@ const playMatch = function () {
         this.style.animation = "";
       });
     });
+    const computerOptions = ["rock", "paper", "scissors", "lizard", "spock"];
+
+    options.forEach(option => {
+      option.addEventListener("click", function() {
+        //Computer Choice
+        const computerNumber = Math.floor(Math.random() * 5);
+        const computerChoice = computerOptions[computerNumber];
+        setTimeout(() => {
+            //Here is where we call compare hands
+            compareHands(this.textContent, computerChoice);
+            //Update Images
+            playerHand.src = `./assets/images/${this.textContent}.png`;
+            computerHand.src = `./assets/images/${computerChoice}.png`;
+          }, 2000);
+          //Animation
+          playerHand.style.animation = "shakePlayer 2s ease";
+          computerHand.style.animation = "shakeComputer 2s ease";
+        });
+      });
+    };
