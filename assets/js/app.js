@@ -43,3 +43,18 @@ const playMatch = function () {
         });
       });
     };
+    const updateScore = function () {
+        const playerScore = document.querySelector(".player-score p");
+        const computerScore = document.querySelector(".computer-score p");
+        playerScore.textContent = pScore;
+        computerScore.textContent = cScore;
+      };
+    
+      const compareHands = function (playerChoice, computerChoice) {
+        //Update Text
+        const winner = document.querySelector(".winner");
+        //Checking for a tie
+        if (playerChoice === computerChoice) {
+          winner.textContent = "It is a tie";
+          return;
+        }
