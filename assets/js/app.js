@@ -97,4 +97,21 @@ const playMatch = function () {
               return;
             }
           }
+          if (playerChoice === "lizard") {
+            if (computerChoice === "scissors" || computerChoice === "rock")
+          
+          {
+              winner.textContent = "Computer Wins";
+              cScore++;
+              updateScore();
+              return;
+            } 
+            else {
+              winner.textContent = "Player Wins";
+              pScore++;
+              updateScore();
+              return;
+            }
+          }
+          
       
