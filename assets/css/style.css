@@ -9,3 +9,18 @@
     background-image: linear-gradient(to left top, #756bd1, #008dea, #00a9ee, #00c0e1, #00d3cc, #00d4cd, #00d4cd, #00d5ce, #00c3ea, #00acff, #008dff, #615ffb);;
     font-family: bubblegum sans;
   }
+  .score {
+    color: rgb(224, 224, 224);
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+  .score h2 {
+    font-size: 30px;
+  }
+  .score p {
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+  }
