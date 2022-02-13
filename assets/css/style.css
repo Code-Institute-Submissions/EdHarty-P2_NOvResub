@@ -24,3 +24,16 @@
     padding: 10px;
     font-size: 25px;
   }
+  .intro {
+    color: rgb(224, 224, 224);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: opacity 0.5s ease;
+  }
+  
+  .intro h1 {
+    font-size: 50px;
+  }
