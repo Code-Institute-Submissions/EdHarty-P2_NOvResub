@@ -111,7 +111,7 @@ A live website can be found [here](https://edharty.github.io/P2/)
 
 ## Credits:
 
-**The code**
+**The code content**
 
 https://learn.codeinstitute.net/login?next=/
 
