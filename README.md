@@ -7,7 +7,7 @@ Balsamiq:
 I used balsamiq to give me a general idea of what the game should look like.
 <img width="945" alt="2022-02-13 (16)" src="https://user-images.githubusercontent.com/88341568/153755724-82861d75-adc1-4366-8221-0395e96fc0bb.png">
 
-FEATURES: 
+# FEATURES: 
 Existing Features 
 Header: The header is featured at the top of the Rock, Paper, Scissors, Lizard, Spock Game. It illustrates clearly to viewers what game they are about to play. The font chosen is playful and interactive to stimulate viewers.  
 
@@ -21,7 +21,7 @@ The Game Results: When the player clicks one of the five options, the image of t
 
 Features To Possibly Implement: When I have time, to enhance this game I would like to include a total score that indicates the end of the game and directs you to the beginning of the game again. 
 
-TESTING: 
+# TESTING: 
 
 I tested this game on different browsers - Chrome, Mozilla, Microsoft edge.
 I repeatedly played the game to ensure that all of the results were correct.
@@ -32,7 +32,7 @@ I generated a lighthouse report for both mobile and desktop applications to conf
 <img width="939" alt="2022-02-13 (7)" src="https://user-images.githubusercontent.com/88341568/153755003-31c6cce9-25b8-45d3-8acc-ce8ab929601a.png">
 <img width="951" alt="lighthouse" src="https://user-images.githubusercontent.com/88341568/153755039-85478d44-c0ad-4efb-a3fb-c2b956e889da.png">
 
-Bugs:
+# Bugs:
 
 I had an issue with the options being generated in the game. For example when I chose spock and the computer generated lizard, spock won. This was remedied in JavaScript by changing the if and else statements.
 
@@ -45,18 +45,22 @@ I used www.jigsaw.w3.org to validate CSS.
 <img width="930" alt="2022-02-13 (13)" src="https://user-images.githubusercontent.com/88341568/153755587-055f7236-2e82-43dd-b645-79b0f7c991e9.png">
 <img width="947" alt="2022-02-13 (14)" src="https://user-images.githubusercontent.com/88341568/153755613-d1e3c718-724f-494d-978d-8ef850b05f14.png">
 
-Unfixed Bugs:
+# Unfixed Bugs:
 
 There were no unfixed bugs.
 
 Deployment:
 
-I pushed the code.
-In Github, I clicked on my project repository.
-I clicked on the settings tab.
-I navigated to Github pages.
-I selected main branch and saved.
-A working URL was then generated.
+1. Go to project repositories and select relevant project.
+2. Click on the settings option.
+3. Scroll down to the Github pages section.
+4. Navigate to source section.
+5. Click on the dropdown menu select branch and select main.
+6. Click save.
+7. Once page has refreshed scroll down to get deployed link.
+8. Can click on the link to see if site is working.
+
+A live website can be found [here](https://edharty.github.io/P2/)
 
 Credits:
 
