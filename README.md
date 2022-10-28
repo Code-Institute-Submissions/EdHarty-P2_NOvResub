@@ -10,7 +10,7 @@ The Rock, Paper, Scissors, Lizard and Spock Game, is a fun game that can be used
 
 **Balsamiq:**
 
-I used balsamiq as a tool to design the wireframes.
+Balsamiq was used to design the wireframes.
 
 <img width="936" alt="2022-02-13 (23)" src="https://user-images.githubusercontent.com/88341568/198724605-f96afdae-321a-4ba3-95ec-952e514110e5.png">
 
@@ -37,11 +37,11 @@ When the player clicks one of the five options, the image of the option animates
 
 **Features To Possibly Implement:** 
 
-To enhance this game I would like to include a total score that indicates the end of the game and directs you to the beginning of the game again. 
+To enhance this game a total score that indicates the end of the game and directs you to the beginning of the game again would help the users experience. 
 
 ## TESTING: 
 
-I tested this game on **different browsers:**
+The game was tested on **different browsers:**
 
   **- Chrome**
 
@@ -49,15 +49,13 @@ I tested this game on **different browsers:**
 
   **- Microsoft edge**
 
-I repeatedly played the game to ensure that all of the results were correct.
+The game was run multiple times to ensure that all of the outcomes were correct.
 
-I tested the game on different devices  **- Ipad, Laptop, Android mobile**
+The game was tested on different devices  **- Ipad, Laptop, Android mobile**
 
-I confirmed that all of the HTML structure was legible and comprehendible.
+Different  complimentary colour schemes were tested to give a positive colour contrast ratio.
 
-I ensured the colours used were pleasing to the eye and did not obscure viewing.
-
-I generated a lighthouse report for both mobile and desktop applications to confirm that it was running and functioned well.
+The generated lighthouse report for both mobile and desktop applications confirm that it was running and functioned well.
 
 
 <img width="939" alt="2022-02-13 (7)" src="https://user-images.githubusercontent.com/88341568/153755003-31c6cce9-25b8-45d3-8acc-ce8ab929601a.png">
@@ -66,14 +64,14 @@ I generated a lighthouse report for both mobile and desktop applications to conf
 
 ## Validator testing:
 
-I used [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F) to validate **HTML**.
+[W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F) was used to validate **HTML**.
 
 - HTML
     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
 
 <img width="923" alt="2022-02-13 (12)" src="https://user-images.githubusercontent.com/88341568/153755555-4bfc7fc5-8178-444a-beb9-f96ff3687873.png">
 
-I used Jshint to validate the **JavaScript** code.
+Jshint to was used to validate the **JavaScript** code.
 
 - JavaScript
     - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
@@ -94,7 +92,7 @@ I used Jshint to validate the **JavaScript** code.
 
 ## Bugs:
 
-I had an issue with the options being generated in the game. For example when I chose spock and the computer generated lizard, spock won. This was remedied in JavaScript by changing the if and else statements.
+There was an issue with the options being generated in the game. For example when spock was chosen and the computer generated lizard, spock won. This was remedied in JavaScript by changing the if and else statements.
 
 <img width="703" alt="2022-10-28 (2)" src="https://user-images.githubusercontent.com/88341568/198715424-01dc175c-a53a-467c-9dd6-406c9b8bc32f.png">
 
