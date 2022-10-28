@@ -1,7 +1,7 @@
-ROCK, PAPER, SCISSORS, LIZARD, SPOCK GAME 
-The Rock, Paper, Scissors, Lizard, Spock Game, is a fun game that can be used to help indecisive people to come to a conclusion with regards to difficult choices. The game is geared towards both children and adults and it is simple and anyone can play. 
+# Rock, Paper, Scissors, Lizard and Spock Game 
+## The Rock, Paper, Scissors, Lizard and Spock Game, is a fun game that can be used to help indecisive people to come to a conclusion with regards to difficult choices. The game is geared towards both children and adults. It is simple and anyone can play. 
 
-<img width="842" alt="game website view" src="https://user-images.githubusercontent.com/88341568/153753782-d4e2ecd8-90b1-4a75-b655-22e726137b5f.png">
+https://ui.dev/amiresponsive?url=https://edharty.github.io/P2/
 Balsamiq:
 I used balsamiq to give me a general idea of what the game should look like.
 <img width="945" alt="2022-02-13 (16)" src="https://user-images.githubusercontent.com/88341568/153755724-82861d75-adc1-4366-8221-0395e96fc0bb.png">
