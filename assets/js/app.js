@@ -126,8 +126,7 @@ const game = function () {
     }
   }
   
-  
-  
+
   if (playerChoice === "spock") {
     if (computerChoice === "lizard" || computerChoice === "paper")
   {
@@ -144,8 +143,8 @@ const game = function () {
       return;
     }
   }
-    };
-  
+};
+
     
     startGame();
     playMatch();
